@@ -1,6 +1,6 @@
 module github.com/spotlightpa/nkotb
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/carlmjohnson/be v0.22.5
@@ -15,13 +15,12 @@ require (
 	github.com/tdewolff/minify/v2 v2.12.4
 	golang.org/x/exp v0.0.0-20230131160201-f062dba9d201
 	golang.org/x/net v0.38.0
-	golang.org/x/oauth2 v0.7.0
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.114.0
 )
 
 require (
-	cloud.google.com/go/compute v1.19.1 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	github.com/aws/aws-lambda-go v1.37.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
